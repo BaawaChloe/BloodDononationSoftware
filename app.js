@@ -99,7 +99,7 @@ function typesView() {
     await run(db.from('blood_types').update({ is_active: b.dataset.a !== 'true' }).eq('id', b.dataset.t)); route();
   });
 }
-
+ //application test run
 // Labs 9-10: donations and screening
 async function donations() {
   const [ds, rows] = await Promise.all([

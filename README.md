@@ -1,7 +1,7 @@
 # Blood Donation Management System (Labs 1-10)
 
 Stack: HTML, CSS, JavaScript, Supabase (Postgres). No build step.
-
+ jk jh j jh hj jhbh
 ## Setup
 1. Create a project at supabase.com, open SQL Editor, and run `sql/schema.sql`.
 2. Paste your Project URL and anon/publishable key into `js/config.js`.
