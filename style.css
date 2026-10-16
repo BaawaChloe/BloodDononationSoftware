@@ -29,3 +29,7 @@ dialog::backdrop{background:#0006}
 dialog form{display:grid;gap:.6rem}
 #msg{position:fixed;bottom:1rem;left:50%;transform:translateX(-50%);padding:.5rem 1rem;border-radius:6px;color:#fff;display:none}
 #msg.ok{display:block;background:var(--ok)}#msg.bad{display:block;background:var(--red)}
+.tag.Available,.tag.Added{background:#dcf3e6;color:var(--ok)}
+.tag.Reserved,.tag.Adjusted{background:#fff1d6;color:#8a5a00}
+.tag.Expired,.tag.Discarded{background:#fde4e4;color:var(--red)}
+ul{padding-left:1.1rem;margin:0}li{margin:.3rem 0}
